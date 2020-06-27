@@ -1,0 +1,144 @@
+[data-tab-content] {
+    display: none;
+  }
+  
+.active[data-tab-content] {
+    display: block;
+  }
+  
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica";
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0a0a0a;
+    background: #f4f4f7;
+    -webkit-font-smoothing: antialiased;
+}
+  
+.header {
+  text-align: center;
+  background-color: #190061;
+  background-size: cover;
+  position:relative;
+  padding-top:2rem;
+  padding-bottom: .7rem;
+  color: #CCC;
+} 
+.headline {
+  color: white;
+  font-family: Lora;
+} 
+h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.2em;
+  border-bottom:#3500D3 solid 1px;
+  padding: 0px 0px 20px 0px;
+  
+}
+
+a {
+  text-decoration: none;
+  line-height: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: inherit;
+
+}
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    width:100%;
+    bottom:0;
+    text-align: center;
+  }
+  
+.tab {
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    
+  }
+  
+.tab.active {
+    background-color: #3500D3;
+  }
+  
+.tab:hover {
+    background-color: #AAA;
+  }
+  
+.tab-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+ul {
+  margin-left:1.25rem;
+  list-style-type: disc;
+  line-height:1.6;
+  margin-bottom:1rem;
+  list-style-position: outside;
+  margin:0;
+  padding: 0;
+  display:block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.main {
+  margin:5rem 3rem 5rem 3rem;
+  background-color:white;
+  padding: 23px 38px ;
+  overflow: hidden;
+  border-radius: 25px;
+ 
+}
+
+.Solidworks-content {
+width:200px;
+height: 1000px;
+float:left;
+padding-right: 30px;
+margin-left:-40px;
+background-color: white;
+border-right: black solid 1px;
+}
+.Solidworks-main {
+  margin: 0;
+  background-color: white;
+  
+  overflow:hidden;
+
+}
+
+.Solidworks-main {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+img {
+  border: grey solid 1px;
+  border-radius: 25px;
+}
+
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
