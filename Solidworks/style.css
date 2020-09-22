@@ -1,0 +1,116 @@
+
+/* Style the tab */
+#container {
+  font-family: 'Roboto', sans-serif;  
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Roboto, sans-serif';
+}
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+.topnav a.active {
+  background-color: rgb(117, 206, 223);
+  color: white;
+}
+
+
+.tab {
+    float: left;
+    border: 1px solid white;
+    background-color: #f1f1f1;
+    width: 250px;
+    height: 250px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: white;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    /*border: 1px solid #ccc; */
+    width: 70%;
+    border-left: none;
+    height: 2000px;
+    display: none;
+  }
+  
+  /* Clear floats after the tab */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .tablinks {
+    padding-left: 10px;
+  }
+ul {
+  list-style-type: disc;
+}
+ul.projects {
+  margin:0px;
+  padding:0px;
+  list-style:none;
+
+}
+ul.projects li {
+  margin-bottom:10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #CCCCCC;
+  line-height: 180%;
+
+}
+li {
+  text-align: justify;
+  display: list-item;
+  
+}
+h3 {
+  margin: 0;
+  font-size: 60px;
+}
+ul.projects span{
+  font-size: 30px;
+  text-align: left;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  font-weight:bold;
+}
+ul.projects p {
+  font-size: 17px;
+}
