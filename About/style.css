@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto, sans-serif';
+}
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+.topnav a.active {
+    background-color: rgb(117, 206, 223);
+    color: white;
+}
+.container{
+  
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 0;
+
+}
+.parallax {
+    background: url(QNC.jpg) no-repeat center transparent;
+    background-size: cover;
+    
+
+    background-attachment: fixed;
+    height: 600px;
+    -webkit-mask-image:-webkit-gradient(linear,left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    opacity: 10000;
+}
+
+.info {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: black;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 8em;
+    transform: translate(-50%, -50%);
+    float: left;
+    
+}
+.content {
+    width:1129.6px;
+  
+    height: 1000px;
+    margin: 0 0 0 150px;
+
+}
+.text pre {
+    width: 600px;
+    height: 500px;
+    padding: 10px 0 0 50px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#footer{
+    text-align: right;
+    margin-top: 50px;
+}
+#image {
+    float: right;
+    padding-right: 50px;
+    width: 400px;
+
+}
