@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+#container {
+    font-family: 'Roboto', sans-serif;  
+    
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    border-color: black;
+}
+.navbar .name {  
+    float: left;
+    font-size: 3em;
+    padding:20px 20px 20px 20px;
+    margin:0;
+    width:250px;
+    height: auto;
+    position: relative;
+
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    padding-top: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+.navbar .animation {
+    
+}
+#content {
+    
+    margin: 0 0 0 0;
+}
+
+#footer {
+    text-align: right;
+    margin-top: -50px;
+}
