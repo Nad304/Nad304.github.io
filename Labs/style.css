@@ -115,3 +115,7 @@ h3 {
   margin: 0;
   font-size: 60px;
 }
+#svg {
+  margin: 0;
+  float: left;
+}
