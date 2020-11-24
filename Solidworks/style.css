@@ -161,7 +161,7 @@ header {
   }
   
 .image-container {
-    background-image: url("image/CAD_Cover.jpg");
+    background-image: url("Image/CAD_Cover.jpg");
     background-size: cover;
     position: relative;
     height: 375px;
